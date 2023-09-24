@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "lua-local",
+            "request": "launch",
+            "name": "Debug Love",
+            "program": {
+                "command": "love"
+            },
+            "args": [
+                "${workspaceFolder} "
+            ]
+        }
+    ]
+}
